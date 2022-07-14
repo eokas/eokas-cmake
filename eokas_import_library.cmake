@@ -10,4 +10,6 @@ macro(eokas_import_library LIBRARY_NAME LIBRARY_PATH, LIBRARY_TAG)
     )
 
     FetchContent_MakeAvailable(${LIBRARY_NAME})
+
+    message("Import library: " ${LIBRARY_NAME} "->" ${LIBRARY_PATH} ":" ${LIBRARY_TAG})
 endmacro()
