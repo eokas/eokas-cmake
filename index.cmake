@@ -1,2 +1,2 @@
 
-include(./eokas_import_library.cmake)
+include(${CMAKE_CURRENT_LIST_DIR}/eokas_import_library.cmake)
